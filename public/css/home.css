@@ -1,0 +1,101 @@
+/* h e a d e r */
+
+header{
+    background-color: var(--color-amarillo);
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+}
+
+.logo{ 
+    width: 150px;
+    margin-left: 2em;
+}
+
+.compra-cuotas{
+    text-align: center;
+}
+
+.busqueda{
+    padding-left: 1em;
+}
+
+.searchBar{
+    width: 300px;
+    padding-left: 1em;
+}
+
+.burger-menu{
+    text-align: center;
+    color: white;
+    background-color: var(--color-celeste);
+    width: 35px;
+    height: 35px;
+    margin-left: 170px;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* m a i n */
+main{
+    background-color: var(--color-gris-claro);
+}
+
+/* a r t i c u l o s */
+article .ult-visita{
+    font-size: 24px;
+}
+
+article .precio{
+    font-size: 18px;
+}
+
+article .descuento{
+    font-size: 16px;
+}
+
+article .titulo-producto{
+    font-size: 16px;
+}
+
+section .ofertas{
+    font-size: 24px;
+}
+
+
+/* f o o t e r */
+footer{
+    background-color: white;
+
+}
+
+footer p, footer h4{
+    color: var(--color-gris-oscuro);
+}
+
+footer .info-footer{
+    text-align: center;
+}
+
+footer .fa-credit-card{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px
+}
+
+footer .fa-gift{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px
+}
+
+footer .fa-user-shield{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px
+}
+
+footer .copyright{
+    font-size: 12px;
+}
